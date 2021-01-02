@@ -9,7 +9,7 @@ Uses LSTM to extract features from textual data and uses Conv to extract informa
 Uses GLoVE Word Embeddings for textual feature extraction and trained model for visual feature extraction. Then uses same concatenation model as above for output. However the model again started overfitting.
 
 ### Model 4:
-Use Some text filtering and then used GLoVE word embeddings for feature extraction and trained model for visual feature extraction. Simplified the above concatenation model to reduce the complexity and thus reduce overfitting. Accuarcy increased but wasn't much affected.
+Use Some text filtering and then used GLoVE word embeddings for feature extraction and trained model for visual feature extraction. Simplified the above concatenation model to reduce the complexity and thus reduce overfitting. Accuarcy increased but wasn't much affected. Also used cross validation.
 
 ### Conclusion:
 1. All these models possibly lose features during extraction. Can try a better feature extaction technique.
