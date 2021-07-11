@@ -138,3 +138,5 @@ Result:
 ### Conclusion:
 1. All these models possibly lose features during extraction. Can try a better feature extaction technique.
 2. Can try data augmentation to reduce overfitting.
+
+#### Thanks
